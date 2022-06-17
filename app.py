@@ -29,6 +29,6 @@ def predict():
     return jsonify(results=output)
 
 def main():
-    app.run(port = 75475, debug=True)
+    app.run(port = 65520, debug=True)
 
 main()

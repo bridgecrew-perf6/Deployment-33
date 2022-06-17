@@ -1,5 +1,5 @@
 import requests, json
-url = 'https://trial-model.herokuapp.com:75475'
+url = 'https://trial-model.herokuapp.com:65520'
 data = {'Pclass': 3
       , 'Age': 2
       , 'SibSp': 1
