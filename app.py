@@ -30,8 +30,8 @@ def predict():
     return jsonify(results=output)
 
 def main():
-    port = int(os.environ.get('PORT', 33507))
-    app.run(port = port, debug=True)
+    port = int(os.environ.get('PORT'))
+    app.run(host='0.0.0.0', port=port)
 
 
 
